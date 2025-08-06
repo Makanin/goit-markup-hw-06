@@ -373,7 +373,7 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-  .header-mobile-menu-{
+  .header-mobile-menu-overlay{
     position: fixed;
       z-index: 1000;
       
