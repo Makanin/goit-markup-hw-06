@@ -536,24 +536,19 @@ body {
 }
 
 /* ======= MOBILE ======= */
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .hero {
-    max-width: 320px;
-    background-image:
-      linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-people-office-320.jpg),
-      url(../images/hero-people-office-320.webp);
-  }
+.hero {
+  max-width: 320px;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-people-office-320.jpg),
+    url(../images/hero-people-office-320.webp);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) 
-       and (min-resolution: 192dpi),
-       screen and (min-width: 320px) and (max-width: 767px) 
-       and (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image:
       linear-gradient(
@@ -567,7 +562,7 @@ body {
 }
 
 /* ======= TABLET ======= */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
     padding: 112px 0;
@@ -584,21 +579,18 @@ body {
     max-width: 496px;
     margin-bottom: 36px;
   }
-}
 
-@media screen and (min-width: 768px) and (max-width: 1157px) 
-       and (min-resolution: 192dpi),
-       screen and (min-width: 768px) and (max-width: 1157px) 
-       and (min-resolution: 2dppx) {
-  .hero {
-    background-image:
-      linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-people-office-2x.jpg),
-      url(../images/hero-people-office-2x.webp);
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-people-office-2x.jpg),
+        url(../images/hero-people-office-2x.webp);
+    }
   }
 }
 
@@ -619,21 +611,18 @@ body {
   .hero-title {
     margin-bottom: 48px;
   }
-}
 
-@media screen and (min-width: 1158px) 
-       and (min-resolution: 192dpi),
-       screen and (min-width: 1158px) 
-       and (min-resolution: 2dppx) {
-  .hero {
-    background-image:
-      linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-people-office-2x.jpg),
-      url(../images/hero-people-office-2x.webp);
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-people-office-2x.jpg),
+        url(../images/hero-people-office-2x.webp);
+    }
   }
 }
 .advantages-cards-list {
